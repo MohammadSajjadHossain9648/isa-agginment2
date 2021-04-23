@@ -1,0 +1,299 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.title{
+    font: normal normal bold 60px/80px Quicksand;
+    color: #E17E31;
+}
+.details{
+    font: normal normal normal 18px DM Sans;
+    color: #25374B;
+}
+.type{
+    font: normal normal bold 30px/80px Quicksand;
+    color: #25374B;
+}
+
+/*banner part css*/
+header{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    height: 800px;
+    background: url(../images/background.png);
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+    justify-content: space-between;
+}
+.logo{
+    font: normal normal bold 60px Quicksand;
+}
+.navbar .user-group{
+    display: flex;
+    font: normal normal bold 24px/80px DM Sans;
+    padding: 0 60px;
+}
+.navbar .user-group .signup{
+    padding: 0 80px;
+}
+.navbar .user-group .cart i{
+    padding: 0 10px;
+}
+.banner-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.banner-body h5{
+    text-align: center;
+    font: normal normal bold 90px/120px Quicksand;
+}
+.banner-body p{
+    padding-top: 20px;
+    font: normal normal bold 24px/40px DM Sans;
+}
+.searchbox{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: white;
+    margin: 5px 0;
+}
+.banner-body input{
+    width: 390px;
+    height: 60px;
+    font: normal normal normal 30px/40px DM Sans;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border-style: none;
+}
+.search-icon{
+    width: 80px;
+    height: 80px;
+    background: #FF9100;
+    border-radius: 10px;
+    color: white;
+}
+.search-icon i{
+    padding: 25px;
+}
+.location{
+    display: flex;
+    width: 500px; 
+    align-items: center;
+}
+.location i{
+    padding:0 5px;
+}
+.location-text{
+    font: normal normal normal 25px/40px DM Sans;
+}
+
+/*banner end css*/
+
+
+/*food categories css*/
+.food-categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px 200px;
+    height: 600px;
+    text-align: center;
+}
+.food-categories p{
+    width: 85%;
+    padding: 30px 0;
+}
+.categories-row{
+    display: flex;
+}
+.categories{
+    padding:0 15px;
+}
+.middle-container{
+    background: #F2F5F8;
+    height: 2400px;
+}
+
+
+
+
+
+/*best selling css*/
+
+.best-selling{
+    align-items: center;
+    margin: 0 200px;
+    height: 1100px;
+    border-radius: 10px;
+}
+.best-selling h4{
+    text-align: center;
+    padding: 60px 0 20px;
+}
+
+.selling-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.selling-column{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.selling-column img{
+    width: 540px;
+    height: 300px;
+}
+.selling-btn{
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+    font: normal normal bold 18px/40px DM Sans;
+    color: #25374B;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    background: #FFFFFF;
+}
+.type span{
+    position: relative;
+    left: 300px;
+}
+.star-row{
+    color:#FF9100;
+    font-size: 10px;
+}
+.star-row .black{
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+/*about page css*/
+
+.about{
+    margin: 60px 200px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.about-row{
+    display: flex;
+}
+.about-column{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    width: 580px;
+}
+
+.about-column h4{
+    padding-bottom: 30px;
+}
+.about-row img{
+    padding-left: 20px;
+    width: 540px;
+    height: 460px;
+}
+
+
+
+
+
+/*contact side css*/
+.contact{
+    margin: 60px 200px;
+    height: 330px;
+    border: 1px solid;
+    border-radius: 10px;
+    background: #E17E31;
+    padding: 30px;
+}
+.contact-row{
+    display: flex;
+    flex-direction: row;
+}
+.contact-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 580px;
+}
+.contact-row h4{
+    text-align: left;
+    font: normal normal bold 60px/60px Quicksand;
+    letter-spacing: -3px;
+    color: #FFFFFF;
+    padding:0 100px;
+}
+
+.contact-column .input{
+    width: 400px;
+    background: #FFFFFF;
+    text-align: left;
+    font: normal normal normal 14px/48px DM Sans;
+    color: #25374B;
+    border-radius: 6px;
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.checkbox{
+    margin: 15px 0;
+}
+.checkbox input{
+    font: normal normal normal 14px/48px DM Sans;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+.contact-column button{
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    font: normal normal bold 18px/40px DM Sans;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background: #E17E31;
+    width: 410px;
+}
+
+
+
+
+/*footer css*/
+footer{
+    height: 110px;
+    background: #25374B;
+}
+.footer-row{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-column{
+    padding-top: 20px; 
+    color: #FFFFFF;
+}
+.footer-column i{
+    padding: 5px;
+}
